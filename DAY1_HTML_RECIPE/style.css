@@ -1,0 +1,47 @@
+#menu {
+    background-color: gray;
+    border-radius: 10px;
+    max-width: 850px;
+    margin: auto;
+}
+header{
+    margin-left: 20px;
+    padding: 1px;
+}
+img{
+    max-width: 346px;
+    margin: 6px;
+}
+article{
+    border-color: chocolate;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    float: left;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    max-width: 440px;
+    min-width: 315px;
+}
+ol {
+    list-style: none;
+    counter-reset: steps;
+}
+ol li {
+    counter-increment: steps;
+}
+ol li::before {
+    content: counter(steps);
+    margin-right: 0.5rem;
+    border-style: solid;
+    border-color: chocolate;
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    line-height: 1.2em;
+}
