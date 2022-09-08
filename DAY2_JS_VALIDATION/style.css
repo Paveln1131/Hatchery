@@ -1,0 +1,25 @@
+input{
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    margin: auto;
+    width: 506px;
+    padding: 3px;
+    height: 50px;
+
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 80%;
+    width: 500px;
+}
+#userList{
+    margin: auto;
+    border: solid;
+    width: 500px;
+    height: 50px;
+}

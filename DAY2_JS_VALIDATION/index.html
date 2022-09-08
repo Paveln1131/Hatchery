@@ -2,9 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Title</title>
 </head>
 <body>
+<form name="registration" action="#">
+    <ul>
+        <li>
+            <input type="text" id="userName" name="userName" placeholder="Enter username...">
+        </li>
+        <span id="name"></span>
+        <li>
+            <input type="password" id="password" name="password" placeholder="Enter password...">
+        </li>
+        <span id="pass"></span>
+        <li>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm password...">
+        </li>
+        <span id="confPass"></span>
+        <li>
+            <input type="text" id="email" name="email" placeholder="Enter email...">
+        </li>
+        <span id="mail"></span>
+        <li>
+            <input style="width: 503px" type="date" id="dateOfBirth" name="dateOfBirth">
+        </li>
+        <span id="DoB"></span>
+        <li>
+            <input id="k" style="width: 508px" type="submit" name="submit" value="Submit"
+                   onclick="validation(document.registration.userName,
+                   document.registration.password,
+                   document.registration.confirmPassword,
+                   document.registration.email,
+                   document.registration.dateOfBirth)" />
+        </li>
+    </ul>
+    <h2 style="text-align: center">User list</h2>
+    <ul>
+        <li><p id = "userList"></p></li>
+    </ul>
 
+</form>
+<script src="script.js">
+</script>
 </body>
 </html>

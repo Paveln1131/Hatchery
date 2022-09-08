@@ -20,7 +20,7 @@ article{
     float: left;
     height: 150px;
     margin: 10px;
-    padding: 10px;
+
     text-align: left;
     max-width: 440px;
     min-width: 315px;
@@ -44,4 +44,9 @@ ol li::before {
     display: inline-grid;
     place-items: center;
     line-height: 1.2em;
+}
+.divimg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
