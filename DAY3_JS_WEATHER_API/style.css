@@ -1,0 +1,29 @@
+.display{
+    border: solid;
+    margin: auto;
+    margin-top: 11%;
+    width: 400px;
+    padding: 30px;
+    background-color: aquamarine;
+}
+h1,p{
+    margin: 1px;
+}
+p{
+    font-size: 13px;
+}
+h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+
+h1,h2,p,li{
+    font-family: "Rockwell Condensed", "Roboto Light", serif;
+}
