@@ -8,7 +8,21 @@
     <title>Title</title>
 </head>
 <body>
-<div class="container"></div>
+<div class="container">
+    <div class="display">
+        <h1 id="address"></h1>
+        <p id="resolvedAddress"></p>
+        <h2 id="description"></h2>
+        <ul>
+            <li id="temp"></li>
+            <li id="feelslike"></li>
+            <li id="humidity"></li>
+            <li id="pressure"></li>
+            <li id="uvindex"></li>
+            <li><input id="btn" type="button" value="Refresh" onclick="refresh()"><span id="m" style="font-style: italic;font-size: small"></span></li>
+        </ul>
+    </div>
+</div>
 <script src="script.js"></script>
 </body>
 </html>

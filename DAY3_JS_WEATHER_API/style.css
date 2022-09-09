@@ -27,3 +27,6 @@ li{
 h1,h2,p,li{
     font-family: "Rockwell Condensed", "Roboto Light", serif;
 }
+#btn{
+    margin-top: 6px;
+}
